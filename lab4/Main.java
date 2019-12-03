@@ -96,6 +96,8 @@ public class Main {
     public void initialize(String[] args, String filename) {
         try {
             File numbers = new File(filename);
+            System.out.println(numbers.exists());
+            System.out.println(numbers.getAbsolutePath());
             this.randomNumbers = new Scanner(numbers);
             this.machineSize = Integer.parseInt(args[0]);
             this.pageSize = Integer.parseInt(args[1]);
