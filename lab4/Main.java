@@ -231,7 +231,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main algo = new Main(args, "random-Numbers.txt");
+        Main algo = new Main(args, "random-numbers.txt");
         algo.runAlgo();
     }
 }
